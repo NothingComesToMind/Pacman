@@ -1,0 +1,2055 @@
+2025-04-01 20:29:12,125 - root - INFO - Logger Version: 2.0.0
+2025-04-01 20:29:12,125 - main - INFO - input_args: dict_items([('layout', './layouts\\q1b_bigCorners.lay'), ('pacman', <SearchAgent.SearchAgent object at 0x0000028AA2A36810>), ('ghosts', [<RandomGhost.RandomGhost object at 0x0000028AA2EA1490>, <RandomGhost.RandomGhost object at 0x0000028AA2EA2390>, <RandomGhost.RandomGhost object at 0x0000028AA2EA22A0>, <RandomGhost.RandomGhost object at 0x0000028AA2EA23C0>]), ('display', <textDisplay.NullGraphics object at 0x0000028AA2EA2450>), ('numGames', 1), ('record', False), ('catchExceptions', True), ('timeout', 5), ('outfile', 'q1b_bigCorners')])
+2025-04-01 20:29:12,126 - root - INFO - runGames
+2025-04-01 20:29:12,126 - root - INFO - 0/1
+2025-04-01 20:29:12,137 - root - INFO - newGame
+2025-04-01 20:29:12,137 - root - INFO - layout: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%.      %                         %.%
+%         %%%%% % %%% %%% %%%%%%% % %
+%       %       % %     %     % %   %
+%%%%% %%%%% %%% % % % %%% %%%%% % %%%
+%   % % % %   % % % %   % %     %   %
+% %%% % % % %%% %%%%% %%% % %%% %%% %
+%       %     %   %   %     % % %   %
+%%% %%%%%%%%% %%%%%%% %%% %%% % % % %
+%             %       % %   %     % %
+% % %%%%% % %%% % % %%% % %%% %%% % %
+% % %     % % % % %     %   % % % % %
+% % % %%%%%%% % %%%%%%%%% %%% % %%% %
+% % % %     %   %     %     %   %   %
+%%% %%% % %%%%% %%%%% %%% %%% %%%%% %
+%     % %               % %   % % % %
+% % % % %  %  %%% %%% %%% % % % % % %
+% % % % % %%  % % % % %   % % %     %
+% % %%%%%  %  %%% %%% % %%% %%% %%%%%
+%       %  %  % % % % %       % %   %
+% %%% % %  %  %%% %%% %%%%%%%%% % %%%
+%   % %                   %   % %   %
+% %%% %%%%%%%%%%%%%%%%%%%%% % % %%% %
+% %                         %       %
+% % % %%%%% %%% % % % % %%%%%%%%%%%%%
+% % %   %     % % % %       %   % % %
+% % %%% %%% % % % %%%%%%%%% %%% % % %
+% %   % %   % % %P  % %   % % %     %
+% %%% %%% %%% % %%% % % %%%%% % %%%%%
+%       %   %     %       %   % %   %
+%%% % %%%%% %%%%% %%% %%% % %%% % %%%
+% % % % % % % %     % %   % %   % % %
+% % %%% % % % % %%%%%%%%% % % % % % %
+%       %                     %     %
+% %   % %%% %%% %%%%%%% %%% %%% %%% %
+%.%   %       %           %     %  .%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2025-04-01 20:29:12,137 - root - INFO - runGame
+2025-04-01 20:29:12,145 - root - INFO - #agents:1
+2025-04-01 20:29:12,145 - root - INFO - #pacman:1
+2025-04-01 20:29:12,145 - root - INFO - #ghosts:0
+2025-04-01 20:29:12,146 - getStartState - INFO - I: q1b_problem,
+2025-04-01 20:29:12,146 - getStartState - INFO - O: (17, 9)
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(17, 9),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((17, 10), 'North', 1), ((18, 9), 'East', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(17, 10),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((17, 11), 'North', 1), ((17, 9), 'South', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(18, 9),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((19, 9), 'East', 1), ((17, 9), 'West', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(17, 11),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((17, 12), 'North', 1), ((17, 10), 'South', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(19, 9),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((19, 8), 'South', 1), ((18, 9), 'West', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(17, 12),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((17, 13), 'North', 1), ((17, 11), 'South', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(19, 8),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((19, 9), 'North', 1), ((19, 7), 'South', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(17, 13),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((17, 12), 'South', 1), ((18, 13), 'East', 1), ((16, 13), 'West', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(19, 7),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((19, 8), 'North', 1), ((20, 7), 'East', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(18, 13),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((19, 13), 'East', 1), ((17, 13), 'West', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(16, 13),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((17, 13), 'East', 1), ((15, 13), 'West', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(20, 7),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((21, 7), 'East', 1), ((19, 7), 'West', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(19, 13),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((19, 12), 'South', 1), ((20, 13), 'East', 1), ((18, 13), 'West', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(15, 13),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((15, 12), 'South', 1), ((16, 13), 'East', 1), ((14, 13), 'West', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(21, 7),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((21, 8), 'North', 1), ((21, 6), 'South', 1), ((22, 7), 'East', 1), ((20, 7), 'West', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(19, 12),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((19, 13), 'North', 1), ((19, 11), 'South', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(20, 13),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((21, 13), 'East', 1), ((19, 13), 'West', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(15, 12),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((15, 13), 'North', 1), ((15, 11), 'South', 1)]
+2025-04-01 20:29:12,146 - getSuccessors - INFO - I: q1b_problem,(14, 13),
+2025-04-01 20:29:12,146 - getSuccessors - INFO - O: [((15, 13), 'East', 1), ((13, 13), 'West', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(21, 8),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((21, 9), 'North', 1), ((21, 7), 'South', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(21, 6),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((21, 7), 'North', 1), ((21, 5), 'South', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(22, 7),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((23, 7), 'East', 1), ((21, 7), 'West', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(19, 11),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((19, 12), 'North', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(21, 13),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((21, 12), 'South', 1), ((22, 13), 'East', 1), ((20, 13), 'West', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(15, 11),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((15, 12), 'North', 1), ((15, 10), 'South', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(13, 13),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((14, 13), 'East', 1), ((12, 13), 'West', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(21, 9),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((21, 8), 'South', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(21, 5),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((21, 6), 'North', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(23, 7),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((23, 8), 'North', 1), ((24, 7), 'East', 1), ((22, 7), 'West', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(21, 12),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((21, 13), 'North', 1), ((21, 11), 'South', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(22, 13),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((23, 13), 'East', 1), ((21, 13), 'West', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(15, 10),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((15, 11), 'North', 1), ((15, 9), 'South', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(12, 13),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((13, 13), 'East', 1), ((11, 13), 'West', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(23, 8),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((23, 9), 'North', 1), ((23, 7), 'South', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(24, 7),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((25, 7), 'East', 1), ((23, 7), 'West', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(21, 11),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((21, 12), 'North', 1), ((22, 11), 'East', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(23, 13),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((23, 12), 'South', 1), ((24, 13), 'East', 1), ((22, 13), 'West', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(15, 9),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((15, 10), 'North', 1), ((15, 8), 'South', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(11, 13),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((11, 12), 'South', 1), ((12, 13), 'East', 1), ((10, 13), 'West', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(23, 9),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((23, 8), 'South', 1), ((24, 9), 'East', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(25, 7),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((25, 6), 'South', 1), ((24, 7), 'West', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(22, 11),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((23, 11), 'East', 1), ((21, 11), 'West', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(23, 12),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((23, 13), 'North', 1), ((23, 11), 'South', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(24, 13),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((25, 13), 'East', 1), ((23, 13), 'West', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(15, 8),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((15, 9), 'North', 1), ((15, 7), 'South', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(11, 12),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((11, 13), 'North', 1), ((11, 11), 'South', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(10, 13),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((11, 13), 'East', 1), ((9, 13), 'West', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(24, 9),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((25, 9), 'East', 1), ((23, 9), 'West', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(25, 6),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((25, 7), 'North', 1), ((25, 5), 'South', 1)]
+2025-04-01 20:29:12,147 - getSuccessors - INFO - I: q1b_problem,(23, 11),
+2025-04-01 20:29:12,147 - getSuccessors - INFO - O: [((23, 12), 'North', 1), ((24, 11), 'East', 1), ((22, 11), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(25, 13),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((26, 13), 'East', 1), ((24, 13), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(15, 7),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((15, 8), 'North', 1), ((16, 7), 'East', 1), ((14, 7), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(11, 11),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((11, 12), 'North', 1), ((11, 10), 'South', 1), ((12, 11), 'East', 1), ((10, 11), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(9, 13),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((10, 13), 'East', 1), ((8, 13), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(25, 9),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((24, 9), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(25, 5),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((25, 6), 'North', 1), ((25, 4), 'South', 1), ((24, 5), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(24, 11),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((25, 11), 'East', 1), ((23, 11), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(26, 13),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((27, 13), 'East', 1), ((25, 13), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(16, 7),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((17, 7), 'East', 1), ((15, 7), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(14, 7),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((15, 7), 'East', 1), ((13, 7), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(11, 10),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((11, 11), 'North', 1), ((11, 9), 'South', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(12, 11),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((13, 11), 'East', 1), ((11, 11), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(10, 11),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((11, 11), 'East', 1), ((9, 11), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(8, 13),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((9, 13), 'East', 1), ((7, 13), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(25, 4),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((25, 5), 'North', 1), ((25, 3), 'South', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(24, 5),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((25, 5), 'East', 1), ((23, 5), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(25, 11),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((26, 11), 'East', 1), ((24, 11), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(27, 13),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((27, 14), 'North', 1), ((26, 13), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(17, 7),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((17, 6), 'South', 1), ((16, 7), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(13, 7),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((13, 8), 'North', 1), ((14, 7), 'East', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(11, 9),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((11, 10), 'North', 1), ((10, 9), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(13, 11),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((13, 10), 'South', 1), ((12, 11), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(9, 11),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((10, 11), 'East', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(7, 13),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((8, 13), 'East', 1), ((6, 13), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(25, 3),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((25, 4), 'North', 1), ((26, 3), 'East', 1), ((24, 3), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(23, 5),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((24, 5), 'East', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(26, 11),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((27, 11), 'East', 1), ((25, 11), 'West', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(27, 14),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((27, 15), 'North', 1), ((27, 13), 'South', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(17, 6),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((17, 7), 'North', 1), ((17, 5), 'South', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(13, 8),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((13, 9), 'North', 1), ((13, 7), 'South', 1)]
+2025-04-01 20:29:12,148 - getSuccessors - INFO - I: q1b_problem,(10, 9),
+2025-04-01 20:29:12,148 - getSuccessors - INFO - O: [((11, 9), 'East', 1), ((9, 9), 'West', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(13, 10),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((13, 11), 'North', 1), ((13, 9), 'South', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(6, 13),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((7, 13), 'East', 1), ((5, 13), 'West', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(26, 3),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((27, 3), 'East', 1), ((25, 3), 'West', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(24, 3),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((25, 3), 'East', 1), ((23, 3), 'West', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(27, 11),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((27, 10), 'South', 1), ((26, 11), 'West', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(27, 15),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((27, 14), 'South', 1), ((28, 15), 'East', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(17, 5),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((17, 6), 'North', 1), ((18, 5), 'East', 1), ((16, 5), 'West', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(13, 9),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((13, 10), 'North', 1), ((13, 8), 'South', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(9, 9),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((9, 8), 'South', 1), ((10, 9), 'East', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(5, 13),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((5, 14), 'North', 1), ((5, 12), 'South', 1), ((6, 13), 'East', 1), ((4, 13), 'West', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(27, 3),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((27, 4), 'North', 1), ((27, 2), 'South', 1), ((28, 3), 'East', 1), ((26, 3), 'West', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(23, 3),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((23, 2), 'South', 1), ((24, 3), 'East', 1), ((22, 3), 'West', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(27, 10),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((27, 11), 'North', 1), ((27, 9), 'South', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(28, 15),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((29, 15), 'East', 1), ((27, 15), 'West', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(18, 5),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((19, 5), 'East', 1), ((17, 5), 'West', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(16, 5),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((17, 5), 'East', 1), ((15, 5), 'West', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(9, 8),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((9, 9), 'North', 1), ((9, 7), 'South', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(5, 14),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((5, 15), 'North', 1), ((5, 13), 'South', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(5, 12),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((5, 13), 'North', 1), ((5, 11), 'South', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(4, 13),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((5, 13), 'East', 1), ((3, 13), 'West', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(27, 4),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((27, 5), 'North', 1), ((27, 3), 'South', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(27, 2),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((27, 3), 'North', 1), ((27, 1), 'South', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(28, 3),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((29, 3), 'East', 1), ((27, 3), 'West', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(23, 2),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((23, 3), 'North', 1), ((23, 1), 'South', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(22, 3),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((23, 3), 'East', 1), ((21, 3), 'West', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(27, 9),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((27, 10), 'North', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(29, 15),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((29, 14), 'South', 1), ((28, 15), 'West', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(19, 5),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((18, 5), 'West', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(15, 5),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((15, 4), 'South', 1), ((16, 5), 'East', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(9, 7),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((9, 8), 'North', 1), ((10, 7), 'East', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(5, 15),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((5, 16), 'North', 1), ((5, 14), 'South', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(5, 11),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((5, 12), 'North', 1), ((6, 11), 'East', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(3, 13),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((3, 12), 'South', 1), ((4, 13), 'East', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(27, 5),
+2025-04-01 20:29:12,149 - getSuccessors - INFO - O: [((27, 6), 'North', 1), ((27, 4), 'South', 1)]
+2025-04-01 20:29:12,149 - getSuccessors - INFO - I: q1b_problem,(27, 1),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((27, 2), 'North', 1), ((28, 1), 'East', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(29, 3),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((29, 4), 'North', 1), ((28, 3), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(23, 1),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((23, 2), 'North', 1), ((24, 1), 'East', 1), ((22, 1), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(21, 3),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((22, 3), 'East', 1), ((20, 3), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(29, 14),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((29, 15), 'North', 1), ((29, 13), 'South', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(15, 4),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((15, 5), 'North', 1), ((15, 3), 'South', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(10, 7),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((11, 7), 'East', 1), ((9, 7), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(5, 16),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((5, 17), 'North', 1), ((5, 15), 'South', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(6, 11),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((7, 11), 'East', 1), ((5, 11), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(3, 12),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((3, 13), 'North', 1), ((3, 11), 'South', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(27, 6),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((27, 7), 'North', 1), ((27, 5), 'South', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(28, 1),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((29, 1), 'East', 1), ((27, 1), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(29, 4),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((29, 5), 'North', 1), ((29, 3), 'South', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(24, 1),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((25, 1), 'East', 1), ((23, 1), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(22, 1),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((23, 1), 'East', 1), ((21, 1), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(20, 3),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((21, 3), 'East', 1), ((19, 3), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(29, 13),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((29, 14), 'North', 1), ((30, 13), 'East', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(15, 3),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((15, 4), 'North', 1), ((15, 2), 'South', 1), ((16, 3), 'East', 1), ((14, 3), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(11, 7),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((11, 6), 'South', 1), ((10, 7), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(5, 17),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((5, 16), 'South', 1), ((6, 17), 'East', 1), ((4, 17), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(7, 11),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((7, 10), 'South', 1), ((6, 11), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(3, 11),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((3, 12), 'North', 1), ((3, 10), 'South', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(27, 7),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((27, 6), 'South', 1), ((28, 7), 'East', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(29, 1),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((30, 1), 'East', 1), ((28, 1), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(29, 5),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((29, 4), 'South', 1), ((30, 5), 'East', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(25, 1),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((24, 1), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(21, 1),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((22, 1), 'East', 1), ((20, 1), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(19, 3),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((20, 3), 'East', 1), ((18, 3), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(30, 13),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((31, 13), 'East', 1), ((29, 13), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(15, 2),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((15, 3), 'North', 1), ((15, 1), 'South', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(16, 3),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((17, 3), 'East', 1), ((15, 3), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(14, 3),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((15, 3), 'East', 1), ((13, 3), 'West', 1)]
+2025-04-01 20:29:12,150 - getSuccessors - INFO - I: q1b_problem,(11, 6),
+2025-04-01 20:29:12,150 - getSuccessors - INFO - O: [((11, 7), 'North', 1), ((11, 5), 'South', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(6, 17),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((7, 17), 'East', 1), ((5, 17), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(4, 17),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((5, 17), 'East', 1), ((3, 17), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(7, 10),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((7, 11), 'North', 1), ((7, 9), 'South', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(3, 10),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((3, 11), 'North', 1), ((3, 9), 'South', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(28, 7),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((29, 7), 'East', 1), ((27, 7), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(30, 1),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((31, 1), 'East', 1), ((29, 1), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(30, 5),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((31, 5), 'East', 1), ((29, 5), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(20, 1),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((21, 1), 'East', 1), ((19, 1), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(18, 3),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((19, 3), 'East', 1), ((17, 3), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(31, 13),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((31, 14), 'North', 1), ((32, 13), 'East', 1), ((30, 13), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(15, 1),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((15, 2), 'North', 1), ((16, 1), 'East', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(17, 3),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((18, 3), 'East', 1), ((16, 3), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(13, 3),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((13, 4), 'North', 1), ((14, 3), 'East', 1), ((12, 3), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(11, 5),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((11, 6), 'North', 1), ((11, 4), 'South', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(7, 17),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((7, 16), 'South', 1), ((6, 17), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(3, 17),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((3, 18), 'North', 1), ((4, 17), 'East', 1), ((2, 17), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(7, 9),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((7, 10), 'North', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(3, 9),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((3, 10), 'North', 1), ((4, 9), 'East', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(29, 7),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((29, 8), 'North', 1), ((28, 7), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(31, 1),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((31, 2), 'North', 1), ((30, 1), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(31, 5),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((31, 6), 'North', 1), ((31, 4), 'South', 1), ((30, 5), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(19, 1),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((20, 1), 'East', 1), ((18, 1), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(31, 14),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((31, 15), 'North', 1), ((31, 13), 'South', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(32, 13),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((33, 13), 'East', 1), ((31, 13), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(16, 1),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((17, 1), 'East', 1), ((15, 1), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(13, 4),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((13, 5), 'North', 1), ((13, 3), 'South', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(12, 3),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((13, 3), 'East', 1), ((11, 3), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(11, 4),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((11, 5), 'North', 1), ((11, 3), 'South', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(7, 16),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((7, 17), 'North', 1), ((7, 15), 'South', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(3, 18),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((3, 19), 'North', 1), ((3, 17), 'South', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(2, 17),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((3, 17), 'East', 1), ((1, 17), 'West', 1)]
+2025-04-01 20:29:12,151 - getSuccessors - INFO - I: q1b_problem,(4, 9),
+2025-04-01 20:29:12,151 - getSuccessors - INFO - O: [((5, 9), 'East', 1), ((3, 9), 'West', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(29, 8),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((29, 9), 'North', 1), ((29, 7), 'South', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(31, 2),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((31, 3), 'North', 1), ((31, 1), 'South', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(31, 6),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((31, 7), 'North', 1), ((31, 5), 'South', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(31, 4),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((31, 5), 'North', 1), ((31, 3), 'South', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(18, 1),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((19, 1), 'East', 1), ((17, 1), 'West', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(31, 15),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((31, 16), 'North', 1), ((31, 14), 'South', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(33, 13),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((34, 13), 'East', 1), ((32, 13), 'West', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(17, 1),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((18, 1), 'East', 1), ((16, 1), 'West', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(13, 5),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((13, 4), 'South', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(11, 3),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((11, 4), 'North', 1), ((11, 2), 'South', 1), ((12, 3), 'East', 1), ((10, 3), 'West', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(7, 15),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((7, 16), 'North', 1), ((8, 15), 'East', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(3, 19),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((3, 20), 'North', 1), ((3, 18), 'South', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(1, 17),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((1, 18), 'North', 1), ((1, 16), 'South', 1), ((2, 17), 'East', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(5, 9),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((5, 8), 'South', 1), ((4, 9), 'West', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(29, 9),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((29, 8), 'South', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(31, 3),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((31, 4), 'North', 1), ((31, 2), 'South', 1), ((32, 3), 'East', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(31, 7),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((31, 8), 'North', 1), ((31, 6), 'South', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(31, 16),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((31, 17), 'North', 1), ((31, 15), 'South', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(34, 13),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((35, 13), 'East', 1), ((33, 13), 'West', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(11, 2),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((11, 3), 'North', 1), ((11, 1), 'South', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(10, 3),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((11, 3), 'East', 1), ((9, 3), 'West', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(8, 15),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((9, 15), 'East', 1), ((7, 15), 'West', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(3, 20),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((3, 21), 'North', 1), ((3, 19), 'South', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(1, 18),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((1, 19), 'North', 1), ((1, 17), 'South', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(1, 16),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((1, 17), 'North', 1), ((1, 15), 'South', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(5, 8),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((5, 9), 'North', 1), ((5, 7), 'South', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(32, 3),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((33, 3), 'East', 1), ((31, 3), 'West', 1)]
+2025-04-01 20:29:12,152 - getSuccessors - INFO - I: q1b_problem,(31, 8),
+2025-04-01 20:29:12,152 - getSuccessors - INFO - O: [((31, 9), 'North', 1), ((31, 7), 'South', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(31, 17),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((31, 18), 'North', 1), ((31, 16), 'South', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(35, 13),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((35, 14), 'North', 1), ((34, 13), 'West', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(11, 1),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((11, 2), 'North', 1), ((12, 1), 'East', 1), ((10, 1), 'West', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(9, 3),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((9, 4), 'North', 1), ((10, 3), 'East', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(9, 15),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((9, 16), 'North', 1), ((10, 15), 'East', 1), ((8, 15), 'West', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(3, 21),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((3, 22), 'North', 1), ((3, 20), 'South', 1), ((4, 21), 'East', 1), ((2, 21), 'West', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(1, 19),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((1, 20), 'North', 1), ((1, 18), 'South', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(1, 15),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((1, 16), 'North', 1), ((1, 14), 'South', 1), ((2, 15), 'East', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(5, 7),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((5, 8), 'North', 1), ((5, 6), 'South', 1), ((6, 7), 'East', 1), ((4, 7), 'West', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(33, 3),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((33, 4), 'North', 1), ((34, 3), 'East', 1), ((32, 3), 'West', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(31, 9),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((31, 10), 'North', 1), ((31, 8), 'South', 1), ((32, 9), 'East', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(31, 18),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((31, 19), 'North', 1), ((31, 17), 'South', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(35, 14),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((35, 15), 'North', 1), ((35, 13), 'South', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(12, 1),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((13, 1), 'East', 1), ((11, 1), 'West', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(10, 1),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((11, 1), 'East', 1), ((9, 1), 'West', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(9, 4),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((9, 5), 'North', 1), ((9, 3), 'South', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(9, 16),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((9, 17), 'North', 1), ((9, 15), 'South', 1), ((10, 16), 'East', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(10, 15),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((10, 16), 'North', 1), ((11, 15), 'East', 1), ((9, 15), 'West', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(3, 22),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((3, 23), 'North', 1), ((3, 21), 'South', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(4, 21),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((5, 21), 'East', 1), ((3, 21), 'West', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(2, 21),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((3, 21), 'East', 1), ((1, 21), 'West', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(1, 20),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((1, 21), 'North', 1), ((1, 19), 'South', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(1, 14),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((1, 15), 'North', 1), ((1, 13), 'South', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(2, 15),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((3, 15), 'East', 1), ((1, 15), 'West', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(5, 6),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((5, 7), 'North', 1), ((5, 5), 'South', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(6, 7),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((7, 7), 'East', 1), ((5, 7), 'West', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(4, 7),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((5, 7), 'East', 1), ((3, 7), 'West', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(33, 4),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((33, 5), 'North', 1), ((33, 3), 'South', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(34, 3),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((35, 3), 'East', 1), ((33, 3), 'West', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(31, 10),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((31, 11), 'North', 1), ((31, 9), 'South', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(32, 9),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((33, 9), 'East', 1), ((31, 9), 'West', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(31, 19),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((31, 20), 'North', 1), ((31, 18), 'South', 1), ((32, 19), 'East', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(35, 15),
+2025-04-01 20:29:12,153 - getSuccessors - INFO - O: [((35, 14), 'South', 1), ((34, 15), 'West', 1)]
+2025-04-01 20:29:12,153 - getSuccessors - INFO - I: q1b_problem,(13, 1),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((12, 1), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(9, 1),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((10, 1), 'East', 1), ((8, 1), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(9, 5),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((9, 4), 'South', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(9, 17),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((9, 18), 'North', 1), ((9, 16), 'South', 1), ((10, 17), 'East', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(10, 16),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((10, 17), 'North', 1), ((10, 15), 'South', 1), ((9, 16), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(11, 15),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((12, 15), 'East', 1), ((10, 15), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(3, 23),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((3, 24), 'North', 1), ((3, 22), 'South', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(5, 21),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((5, 20), 'South', 1), ((4, 21), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(1, 21),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((1, 20), 'South', 1), ((2, 21), 'East', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(1, 13),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((1, 14), 'North', 1), ((1, 12), 'South', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(3, 15),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((2, 15), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(5, 5),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((5, 6), 'North', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(7, 7),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((6, 7), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(3, 7),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((3, 6), 'South', 1), ((4, 7), 'East', 1), ((2, 7), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(33, 5),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((33, 6), 'North', 1), ((33, 4), 'South', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(35, 3),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((35, 4), 'North', 1), ((35, 2), 'South', 1), ((34, 3), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(31, 11),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((31, 10), 'South', 1), ((30, 11), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(33, 9),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((33, 10), 'North', 1), ((34, 9), 'East', 1), ((32, 9), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(31, 20),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((31, 21), 'North', 1), ((31, 19), 'South', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(32, 19),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((33, 19), 'East', 1), ((31, 19), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(34, 15),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((35, 15), 'East', 1), ((33, 15), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(8, 1),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((9, 1), 'East', 1), ((7, 1), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(9, 18),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((9, 19), 'North', 1), ((9, 17), 'South', 1), ((10, 18), 'East', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(10, 17),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((10, 18), 'North', 1), ((10, 16), 'South', 1), ((9, 17), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(12, 15),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((12, 16), 'North', 1), ((13, 15), 'East', 1), ((11, 15), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(3, 24),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((3, 25), 'North', 1), ((3, 23), 'South', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(5, 20),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((5, 21), 'North', 1), ((5, 19), 'South', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(1, 12),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((1, 13), 'North', 1), ((1, 11), 'South', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(3, 6),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((3, 7), 'North', 1), ((3, 5), 'South', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(2, 7),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((3, 7), 'East', 1), ((1, 7), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(33, 6),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((33, 7), 'North', 1), ((33, 5), 'South', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(35, 4),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((35, 5), 'North', 1), ((35, 3), 'South', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(35, 2),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((35, 3), 'North', 1), ((35, 1), 'South', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(30, 11),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((31, 11), 'East', 1), ((29, 11), 'West', 1)]
+2025-04-01 20:29:12,154 - getSuccessors - INFO - I: q1b_problem,(33, 10),
+2025-04-01 20:29:12,154 - getSuccessors - INFO - O: [((33, 11), 'North', 1), ((33, 9), 'South', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(34, 9),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((35, 9), 'East', 1), ((33, 9), 'West', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(31, 21),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((31, 20), 'South', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(33, 19),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((33, 20), 'North', 1), ((34, 19), 'East', 1), ((32, 19), 'West', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(33, 15),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((33, 16), 'North', 1), ((34, 15), 'East', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(7, 1),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((7, 2), 'North', 1), ((8, 1), 'East', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(9, 19),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((9, 20), 'North', 1), ((9, 18), 'South', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(10, 18),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((10, 17), 'South', 1), ((9, 18), 'West', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(12, 16),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((12, 17), 'North', 1), ((12, 15), 'South', 1), ((13, 16), 'East', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(13, 15),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((13, 16), 'North', 1), ((14, 15), 'East', 1), ((12, 15), 'West', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(3, 25),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((3, 26), 'North', 1), ((3, 24), 'South', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(5, 19),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((5, 20), 'North', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(1, 11),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((1, 12), 'North', 1), ((1, 10), 'South', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(3, 5),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((3, 6), 'North', 1), ((3, 4), 'South', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(1, 7),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((1, 8), 'North', 1), ((2, 7), 'East', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(33, 7),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((33, 6), 'South', 1), ((34, 7), 'East', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(35, 5),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((35, 4), 'South', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(35, 1),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((35, 2), 'North', 1), ((34, 1), 'West', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(29, 11),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((30, 11), 'East', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(33, 11),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((33, 10), 'South', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(35, 9),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((35, 10), 'North', 1), ((34, 9), 'West', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(33, 20),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((33, 21), 'North', 1), ((33, 19), 'South', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(34, 19),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((35, 19), 'East', 1), ((33, 19), 'West', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(33, 16),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((33, 17), 'North', 1), ((33, 15), 'South', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(7, 2),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((7, 3), 'North', 1), ((7, 1), 'South', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(9, 20),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((9, 21), 'North', 1), ((9, 19), 'South', 1), ((10, 20), 'East', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(12, 17),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((12, 18), 'North', 1), ((12, 16), 'South', 1), ((13, 17), 'East', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(13, 16),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((13, 17), 'North', 1), ((13, 15), 'South', 1), ((12, 16), 'West', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(14, 15),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((15, 15), 'East', 1), ((13, 15), 'West', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(3, 26),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((3, 27), 'North', 1), ((3, 25), 'South', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(1, 10),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((1, 11), 'North', 1), ((1, 9), 'South', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(3, 4),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((3, 5), 'North', 1), ((3, 3), 'South', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(1, 8),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((1, 9), 'North', 1), ((1, 7), 'South', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(34, 7),
+2025-04-01 20:29:12,155 - getSuccessors - INFO - O: [((35, 7), 'East', 1), ((33, 7), 'West', 1)]
+2025-04-01 20:29:12,155 - getSuccessors - INFO - I: q1b_problem,(34, 1),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((35, 1), 'East', 1), ((33, 1), 'West', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(35, 10),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((35, 11), 'North', 1), ((35, 9), 'South', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(33, 21),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((33, 20), 'South', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(35, 19),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((35, 20), 'North', 1), ((34, 19), 'West', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(33, 17),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((33, 16), 'South', 1), ((34, 17), 'East', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(7, 3),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((7, 4), 'North', 1), ((7, 2), 'South', 1), ((6, 3), 'West', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(9, 21),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((9, 22), 'North', 1), ((9, 20), 'South', 1), ((10, 21), 'East', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(10, 20),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((10, 21), 'North', 1), ((9, 20), 'West', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(12, 18),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((12, 19), 'North', 1), ((12, 17), 'South', 1), ((13, 18), 'East', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(13, 17),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((13, 18), 'North', 1), ((13, 16), 'South', 1), ((12, 17), 'West', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(15, 15),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((16, 15), 'East', 1), ((14, 15), 'West', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(3, 27),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((3, 28), 'North', 1), ((3, 26), 'South', 1), ((4, 27), 'East', 1), ((2, 27), 'West', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(1, 9),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((1, 10), 'North', 1), ((1, 8), 'South', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(3, 3),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((3, 4), 'North', 1), ((3, 2), 'South', 1), ((4, 3), 'East', 1), ((2, 3), 'West', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(35, 7),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((34, 7), 'West', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(33, 1),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((34, 1), 'East', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(35, 11),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((35, 10), 'South', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(35, 20),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((35, 21), 'North', 1), ((35, 19), 'South', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(34, 17),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((35, 17), 'East', 1), ((33, 17), 'West', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(7, 4),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((7, 5), 'North', 1), ((7, 3), 'South', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(6, 3),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((7, 3), 'East', 1), ((5, 3), 'West', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(9, 22),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((9, 23), 'North', 1), ((9, 21), 'South', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(10, 21),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((10, 20), 'South', 1), ((11, 21), 'East', 1), ((9, 21), 'West', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(12, 19),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((12, 20), 'North', 1), ((12, 18), 'South', 1), ((13, 19), 'East', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(13, 18),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((13, 19), 'North', 1), ((13, 17), 'South', 1), ((12, 18), 'West', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(16, 15),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((17, 15), 'East', 1), ((15, 15), 'West', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(3, 28),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((3, 29), 'North', 1), ((3, 27), 'South', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(4, 27),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((5, 27), 'East', 1), ((3, 27), 'West', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(2, 27),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((3, 27), 'East', 1), ((1, 27), 'West', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(3, 2),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((3, 3), 'North', 1), ((3, 1), 'South', 1), ((4, 2), 'East', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(4, 3),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((4, 2), 'South', 1), ((5, 3), 'East', 1), ((3, 3), 'West', 1)]
+2025-04-01 20:29:12,156 - getSuccessors - INFO - I: q1b_problem,(2, 3),
+2025-04-01 20:29:12,156 - getSuccessors - INFO - O: [((3, 3), 'East', 1), ((1, 3), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(35, 21),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((35, 22), 'North', 1), ((35, 20), 'South', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(35, 17),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((34, 17), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(7, 5),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((7, 4), 'South', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(5, 3),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((5, 2), 'South', 1), ((6, 3), 'East', 1), ((4, 3), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(9, 23),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((9, 22), 'South', 1), ((10, 23), 'East', 1), ((8, 23), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(11, 21),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((12, 21), 'East', 1), ((10, 21), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(12, 20),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((12, 21), 'North', 1), ((12, 19), 'South', 1), ((13, 20), 'East', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(13, 19),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((13, 20), 'North', 1), ((13, 18), 'South', 1), ((12, 19), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(17, 15),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((17, 16), 'North', 1), ((18, 15), 'East', 1), ((16, 15), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(3, 29),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((3, 28), 'South', 1), ((4, 29), 'East', 1), ((2, 29), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(5, 27),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((6, 27), 'East', 1), ((4, 27), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(1, 27),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((1, 26), 'South', 1), ((2, 27), 'East', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(3, 1),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((3, 2), 'North', 1), ((4, 1), 'East', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(4, 2),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((4, 3), 'North', 1), ((4, 1), 'South', 1), ((5, 2), 'East', 1), ((3, 2), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(1, 3),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((1, 4), 'North', 1), ((1, 2), 'South', 1), ((2, 3), 'East', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(35, 22),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((35, 23), 'North', 1), ((35, 21), 'South', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(5, 2),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((5, 3), 'North', 1), ((5, 1), 'South', 1), ((4, 2), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(10, 23),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((11, 23), 'East', 1), ((9, 23), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(8, 23),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((9, 23), 'East', 1), ((7, 23), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(12, 21),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((12, 20), 'South', 1), ((13, 21), 'East', 1), ((11, 21), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(13, 20),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((13, 21), 'North', 1), ((13, 19), 'South', 1), ((12, 20), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(17, 16),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((17, 17), 'North', 1), ((17, 15), 'South', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(18, 15),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((19, 15), 'East', 1), ((17, 15), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(4, 29),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((5, 29), 'East', 1), ((3, 29), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(2, 29),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((3, 29), 'East', 1), ((1, 29), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(6, 27),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((7, 27), 'East', 1), ((5, 27), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(1, 26),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((1, 27), 'North', 1), ((1, 25), 'South', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(4, 1),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((4, 2), 'North', 1), ((5, 1), 'East', 1), ((3, 1), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(1, 4),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((1, 5), 'North', 1), ((1, 3), 'South', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(1, 2),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((1, 3), 'North', 1), ((1, 1), 'South', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(35, 23),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((35, 24), 'North', 1), ((35, 22), 'South', 1), ((34, 23), 'West', 1)]
+2025-04-01 20:29:12,157 - getSuccessors - INFO - I: q1b_problem,(5, 1),
+2025-04-01 20:29:12,157 - getSuccessors - INFO - O: [((5, 2), 'North', 1), ((4, 1), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(11, 23),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((10, 23), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(7, 23),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((7, 22), 'South', 1), ((8, 23), 'East', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(13, 21),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((13, 20), 'South', 1), ((14, 21), 'East', 1), ((12, 21), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(17, 17),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((17, 18), 'North', 1), ((17, 16), 'South', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(19, 15),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((20, 15), 'East', 1), ((18, 15), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(5, 29),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((5, 30), 'North', 1), ((6, 29), 'East', 1), ((4, 29), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(1, 29),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((1, 30), 'North', 1), ((2, 29), 'East', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(7, 27),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((8, 27), 'East', 1), ((6, 27), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(1, 25),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((1, 26), 'North', 1), ((1, 24), 'South', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(1, 5),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((1, 4), 'South', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(17, 9),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((17, 10), 'North', 1), ((18, 9), 'East', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(17, 10),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((17, 11), 'North', 1), ((17, 9), 'South', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(18, 9),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((19, 9), 'East', 1), ((17, 9), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(17, 11),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((17, 12), 'North', 1), ((17, 10), 'South', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(19, 9),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((19, 8), 'South', 1), ((18, 9), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(17, 12),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((17, 13), 'North', 1), ((17, 11), 'South', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(19, 8),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((19, 9), 'North', 1), ((19, 7), 'South', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(17, 13),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((17, 12), 'South', 1), ((18, 13), 'East', 1), ((16, 13), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(19, 7),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((19, 8), 'North', 1), ((20, 7), 'East', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(18, 13),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((19, 13), 'East', 1), ((17, 13), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(16, 13),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((17, 13), 'East', 1), ((15, 13), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(20, 7),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((21, 7), 'East', 1), ((19, 7), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(19, 13),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((19, 12), 'South', 1), ((20, 13), 'East', 1), ((18, 13), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(15, 13),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((15, 12), 'South', 1), ((16, 13), 'East', 1), ((14, 13), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(21, 7),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((21, 8), 'North', 1), ((21, 6), 'South', 1), ((22, 7), 'East', 1), ((20, 7), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(19, 12),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((19, 13), 'North', 1), ((19, 11), 'South', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(20, 13),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((21, 13), 'East', 1), ((19, 13), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(15, 12),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((15, 13), 'North', 1), ((15, 11), 'South', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(14, 13),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((15, 13), 'East', 1), ((13, 13), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(21, 8),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((21, 9), 'North', 1), ((21, 7), 'South', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(21, 6),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((21, 7), 'North', 1), ((21, 5), 'South', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(22, 7),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((23, 7), 'East', 1), ((21, 7), 'West', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(19, 11),
+2025-04-01 20:29:12,158 - getSuccessors - INFO - O: [((19, 12), 'North', 1)]
+2025-04-01 20:29:12,158 - getSuccessors - INFO - I: q1b_problem,(21, 13),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((21, 12), 'South', 1), ((22, 13), 'East', 1), ((20, 13), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(15, 11),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((15, 12), 'North', 1), ((15, 10), 'South', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(13, 13),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((14, 13), 'East', 1), ((12, 13), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(21, 9),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((21, 8), 'South', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(21, 5),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((21, 6), 'North', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(23, 7),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((23, 8), 'North', 1), ((24, 7), 'East', 1), ((22, 7), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(21, 12),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((21, 13), 'North', 1), ((21, 11), 'South', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(22, 13),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((23, 13), 'East', 1), ((21, 13), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(15, 10),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((15, 11), 'North', 1), ((15, 9), 'South', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(12, 13),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((13, 13), 'East', 1), ((11, 13), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(23, 8),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((23, 9), 'North', 1), ((23, 7), 'South', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(24, 7),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((25, 7), 'East', 1), ((23, 7), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(21, 11),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((21, 12), 'North', 1), ((22, 11), 'East', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(23, 13),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((23, 12), 'South', 1), ((24, 13), 'East', 1), ((22, 13), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(15, 9),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((15, 10), 'North', 1), ((15, 8), 'South', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(11, 13),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((11, 12), 'South', 1), ((12, 13), 'East', 1), ((10, 13), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(23, 9),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((23, 8), 'South', 1), ((24, 9), 'East', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(25, 7),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((25, 6), 'South', 1), ((24, 7), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(22, 11),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((23, 11), 'East', 1), ((21, 11), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(23, 12),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((23, 13), 'North', 1), ((23, 11), 'South', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(24, 13),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((25, 13), 'East', 1), ((23, 13), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(15, 8),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((15, 9), 'North', 1), ((15, 7), 'South', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(11, 12),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((11, 13), 'North', 1), ((11, 11), 'South', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(10, 13),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((11, 13), 'East', 1), ((9, 13), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(24, 9),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((25, 9), 'East', 1), ((23, 9), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(25, 6),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((25, 7), 'North', 1), ((25, 5), 'South', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(23, 11),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((23, 12), 'North', 1), ((24, 11), 'East', 1), ((22, 11), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(25, 13),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((26, 13), 'East', 1), ((24, 13), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(15, 7),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((15, 8), 'North', 1), ((16, 7), 'East', 1), ((14, 7), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(11, 11),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((11, 12), 'North', 1), ((11, 10), 'South', 1), ((12, 11), 'East', 1), ((10, 11), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(9, 13),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((10, 13), 'East', 1), ((8, 13), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(25, 9),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((24, 9), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(25, 5),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((25, 6), 'North', 1), ((25, 4), 'South', 1), ((24, 5), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(24, 11),
+2025-04-01 20:29:12,159 - getSuccessors - INFO - O: [((25, 11), 'East', 1), ((23, 11), 'West', 1)]
+2025-04-01 20:29:12,159 - getSuccessors - INFO - I: q1b_problem,(26, 13),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((27, 13), 'East', 1), ((25, 13), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(16, 7),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((17, 7), 'East', 1), ((15, 7), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(14, 7),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((15, 7), 'East', 1), ((13, 7), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(11, 10),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((11, 11), 'North', 1), ((11, 9), 'South', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(12, 11),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((13, 11), 'East', 1), ((11, 11), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(10, 11),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((11, 11), 'East', 1), ((9, 11), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(8, 13),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((9, 13), 'East', 1), ((7, 13), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(25, 4),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((25, 5), 'North', 1), ((25, 3), 'South', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(24, 5),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((25, 5), 'East', 1), ((23, 5), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(25, 11),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((26, 11), 'East', 1), ((24, 11), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(27, 13),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((27, 14), 'North', 1), ((26, 13), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(17, 7),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((17, 6), 'South', 1), ((16, 7), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(13, 7),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((13, 8), 'North', 1), ((14, 7), 'East', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(11, 9),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((11, 10), 'North', 1), ((10, 9), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(13, 11),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((13, 10), 'South', 1), ((12, 11), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(9, 11),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((10, 11), 'East', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(7, 13),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((8, 13), 'East', 1), ((6, 13), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(25, 3),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((25, 4), 'North', 1), ((26, 3), 'East', 1), ((24, 3), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(23, 5),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((24, 5), 'East', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(26, 11),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((27, 11), 'East', 1), ((25, 11), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(27, 14),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((27, 15), 'North', 1), ((27, 13), 'South', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(17, 6),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((17, 7), 'North', 1), ((17, 5), 'South', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(13, 8),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((13, 9), 'North', 1), ((13, 7), 'South', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(10, 9),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((11, 9), 'East', 1), ((9, 9), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(13, 10),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((13, 11), 'North', 1), ((13, 9), 'South', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(6, 13),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((7, 13), 'East', 1), ((5, 13), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(26, 3),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((27, 3), 'East', 1), ((25, 3), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(24, 3),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((25, 3), 'East', 1), ((23, 3), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(27, 11),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((27, 10), 'South', 1), ((26, 11), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(27, 15),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((27, 14), 'South', 1), ((28, 15), 'East', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(17, 5),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((17, 6), 'North', 1), ((18, 5), 'East', 1), ((16, 5), 'West', 1)]
+2025-04-01 20:29:12,160 - getSuccessors - INFO - I: q1b_problem,(13, 9),
+2025-04-01 20:29:12,160 - getSuccessors - INFO - O: [((13, 10), 'North', 1), ((13, 8), 'South', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(9, 9),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((9, 8), 'South', 1), ((10, 9), 'East', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(5, 13),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((5, 14), 'North', 1), ((5, 12), 'South', 1), ((6, 13), 'East', 1), ((4, 13), 'West', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(27, 3),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((27, 4), 'North', 1), ((27, 2), 'South', 1), ((28, 3), 'East', 1), ((26, 3), 'West', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(23, 3),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((23, 2), 'South', 1), ((24, 3), 'East', 1), ((22, 3), 'West', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(27, 10),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((27, 11), 'North', 1), ((27, 9), 'South', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(28, 15),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((29, 15), 'East', 1), ((27, 15), 'West', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(18, 5),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((19, 5), 'East', 1), ((17, 5), 'West', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(16, 5),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((17, 5), 'East', 1), ((15, 5), 'West', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(9, 8),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((9, 9), 'North', 1), ((9, 7), 'South', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(5, 14),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((5, 15), 'North', 1), ((5, 13), 'South', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(5, 12),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((5, 13), 'North', 1), ((5, 11), 'South', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(4, 13),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((5, 13), 'East', 1), ((3, 13), 'West', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(27, 4),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((27, 5), 'North', 1), ((27, 3), 'South', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(27, 2),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((27, 3), 'North', 1), ((27, 1), 'South', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(28, 3),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((29, 3), 'East', 1), ((27, 3), 'West', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(23, 2),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((23, 3), 'North', 1), ((23, 1), 'South', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(22, 3),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((23, 3), 'East', 1), ((21, 3), 'West', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(27, 9),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((27, 10), 'North', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(29, 15),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((29, 14), 'South', 1), ((28, 15), 'West', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(19, 5),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((18, 5), 'West', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(15, 5),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((15, 4), 'South', 1), ((16, 5), 'East', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(9, 7),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((9, 8), 'North', 1), ((10, 7), 'East', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(5, 15),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((5, 16), 'North', 1), ((5, 14), 'South', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(5, 11),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((5, 12), 'North', 1), ((6, 11), 'East', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(3, 13),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((3, 12), 'South', 1), ((4, 13), 'East', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(27, 5),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((27, 6), 'North', 1), ((27, 4), 'South', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(27, 1),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((27, 2), 'North', 1), ((28, 1), 'East', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(29, 3),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((29, 4), 'North', 1), ((28, 3), 'West', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(23, 1),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((23, 2), 'North', 1), ((24, 1), 'East', 1), ((22, 1), 'West', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(21, 3),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((22, 3), 'East', 1), ((20, 3), 'West', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(29, 14),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((29, 15), 'North', 1), ((29, 13), 'South', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(15, 4),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((15, 5), 'North', 1), ((15, 3), 'South', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(10, 7),
+2025-04-01 20:29:12,161 - getSuccessors - INFO - O: [((11, 7), 'East', 1), ((9, 7), 'West', 1)]
+2025-04-01 20:29:12,161 - getSuccessors - INFO - I: q1b_problem,(5, 16),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((5, 17), 'North', 1), ((5, 15), 'South', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(6, 11),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((7, 11), 'East', 1), ((5, 11), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(3, 12),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((3, 13), 'North', 1), ((3, 11), 'South', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(27, 6),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((27, 7), 'North', 1), ((27, 5), 'South', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(28, 1),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((29, 1), 'East', 1), ((27, 1), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(29, 4),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((29, 5), 'North', 1), ((29, 3), 'South', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(24, 1),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((25, 1), 'East', 1), ((23, 1), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(22, 1),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((23, 1), 'East', 1), ((21, 1), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(20, 3),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((21, 3), 'East', 1), ((19, 3), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(29, 13),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((29, 14), 'North', 1), ((30, 13), 'East', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(15, 3),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((15, 4), 'North', 1), ((15, 2), 'South', 1), ((16, 3), 'East', 1), ((14, 3), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(11, 7),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((11, 6), 'South', 1), ((10, 7), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(5, 17),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((5, 16), 'South', 1), ((6, 17), 'East', 1), ((4, 17), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(7, 11),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((7, 10), 'South', 1), ((6, 11), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(3, 11),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((3, 12), 'North', 1), ((3, 10), 'South', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(27, 7),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((27, 6), 'South', 1), ((28, 7), 'East', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(29, 1),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((30, 1), 'East', 1), ((28, 1), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(29, 5),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((29, 4), 'South', 1), ((30, 5), 'East', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(25, 1),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((24, 1), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(21, 1),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((22, 1), 'East', 1), ((20, 1), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(19, 3),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((20, 3), 'East', 1), ((18, 3), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(30, 13),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((31, 13), 'East', 1), ((29, 13), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(15, 2),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((15, 3), 'North', 1), ((15, 1), 'South', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(16, 3),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((17, 3), 'East', 1), ((15, 3), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(14, 3),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((15, 3), 'East', 1), ((13, 3), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(11, 6),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((11, 7), 'North', 1), ((11, 5), 'South', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(6, 17),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((7, 17), 'East', 1), ((5, 17), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(4, 17),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((5, 17), 'East', 1), ((3, 17), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(7, 10),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((7, 11), 'North', 1), ((7, 9), 'South', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(3, 10),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((3, 11), 'North', 1), ((3, 9), 'South', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(28, 7),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((29, 7), 'East', 1), ((27, 7), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(30, 1),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((31, 1), 'East', 1), ((29, 1), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(30, 5),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((31, 5), 'East', 1), ((29, 5), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(20, 1),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((21, 1), 'East', 1), ((19, 1), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(18, 3),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((19, 3), 'East', 1), ((17, 3), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(31, 13),
+2025-04-01 20:29:12,162 - getSuccessors - INFO - O: [((31, 14), 'North', 1), ((32, 13), 'East', 1), ((30, 13), 'West', 1)]
+2025-04-01 20:29:12,162 - getSuccessors - INFO - I: q1b_problem,(15, 1),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((15, 2), 'North', 1), ((16, 1), 'East', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(17, 3),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((18, 3), 'East', 1), ((16, 3), 'West', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(13, 3),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((13, 4), 'North', 1), ((14, 3), 'East', 1), ((12, 3), 'West', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(11, 5),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((11, 6), 'North', 1), ((11, 4), 'South', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(7, 17),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((7, 16), 'South', 1), ((6, 17), 'West', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(3, 17),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((3, 18), 'North', 1), ((4, 17), 'East', 1), ((2, 17), 'West', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(7, 9),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((7, 10), 'North', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(3, 9),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((3, 10), 'North', 1), ((4, 9), 'East', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(29, 7),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((29, 8), 'North', 1), ((28, 7), 'West', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(31, 1),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((31, 2), 'North', 1), ((30, 1), 'West', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(31, 5),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((31, 6), 'North', 1), ((31, 4), 'South', 1), ((30, 5), 'West', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(19, 1),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((20, 1), 'East', 1), ((18, 1), 'West', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(31, 14),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((31, 15), 'North', 1), ((31, 13), 'South', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(32, 13),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((33, 13), 'East', 1), ((31, 13), 'West', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(16, 1),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((17, 1), 'East', 1), ((15, 1), 'West', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(13, 4),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((13, 5), 'North', 1), ((13, 3), 'South', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(12, 3),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((13, 3), 'East', 1), ((11, 3), 'West', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(11, 4),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((11, 5), 'North', 1), ((11, 3), 'South', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(7, 16),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((7, 17), 'North', 1), ((7, 15), 'South', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(3, 18),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((3, 19), 'North', 1), ((3, 17), 'South', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(2, 17),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((3, 17), 'East', 1), ((1, 17), 'West', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(4, 9),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((5, 9), 'East', 1), ((3, 9), 'West', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(29, 8),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((29, 9), 'North', 1), ((29, 7), 'South', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(31, 2),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((31, 3), 'North', 1), ((31, 1), 'South', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(31, 6),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((31, 7), 'North', 1), ((31, 5), 'South', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(31, 4),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((31, 5), 'North', 1), ((31, 3), 'South', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(18, 1),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((19, 1), 'East', 1), ((17, 1), 'West', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(31, 15),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((31, 16), 'North', 1), ((31, 14), 'South', 1)]
+2025-04-01 20:29:12,163 - getSuccessors - INFO - I: q1b_problem,(33, 13),
+2025-04-01 20:29:12,163 - getSuccessors - INFO - O: [((34, 13), 'East', 1), ((32, 13), 'West', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(17, 1),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((18, 1), 'East', 1), ((16, 1), 'West', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(13, 5),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((13, 4), 'South', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(11, 3),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((11, 4), 'North', 1), ((11, 2), 'South', 1), ((12, 3), 'East', 1), ((10, 3), 'West', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(7, 15),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((7, 16), 'North', 1), ((8, 15), 'East', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(3, 19),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((3, 20), 'North', 1), ((3, 18), 'South', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(1, 17),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((1, 18), 'North', 1), ((1, 16), 'South', 1), ((2, 17), 'East', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(5, 9),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((5, 8), 'South', 1), ((4, 9), 'West', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(29, 9),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((29, 8), 'South', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(31, 3),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((31, 4), 'North', 1), ((31, 2), 'South', 1), ((32, 3), 'East', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(31, 7),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((31, 8), 'North', 1), ((31, 6), 'South', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(31, 16),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((31, 17), 'North', 1), ((31, 15), 'South', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(34, 13),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((35, 13), 'East', 1), ((33, 13), 'West', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(11, 2),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((11, 3), 'North', 1), ((11, 1), 'South', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(10, 3),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((11, 3), 'East', 1), ((9, 3), 'West', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(8, 15),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((9, 15), 'East', 1), ((7, 15), 'West', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(3, 20),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((3, 21), 'North', 1), ((3, 19), 'South', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(1, 18),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((1, 19), 'North', 1), ((1, 17), 'South', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(1, 16),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((1, 17), 'North', 1), ((1, 15), 'South', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(5, 8),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((5, 9), 'North', 1), ((5, 7), 'South', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(32, 3),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((33, 3), 'East', 1), ((31, 3), 'West', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(31, 8),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((31, 9), 'North', 1), ((31, 7), 'South', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(31, 17),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((31, 18), 'North', 1), ((31, 16), 'South', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(35, 13),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((35, 14), 'North', 1), ((34, 13), 'West', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(11, 1),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((11, 2), 'North', 1), ((12, 1), 'East', 1), ((10, 1), 'West', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(9, 3),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((9, 4), 'North', 1), ((10, 3), 'East', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(9, 15),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((9, 16), 'North', 1), ((10, 15), 'East', 1), ((8, 15), 'West', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(3, 21),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((3, 22), 'North', 1), ((3, 20), 'South', 1), ((4, 21), 'East', 1), ((2, 21), 'West', 1)]
+2025-04-01 20:29:12,164 - getSuccessors - INFO - I: q1b_problem,(1, 19),
+2025-04-01 20:29:12,164 - getSuccessors - INFO - O: [((1, 20), 'North', 1), ((1, 18), 'South', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(1, 15),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((1, 16), 'North', 1), ((1, 14), 'South', 1), ((2, 15), 'East', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(5, 7),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((5, 8), 'North', 1), ((5, 6), 'South', 1), ((6, 7), 'East', 1), ((4, 7), 'West', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(33, 3),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((33, 4), 'North', 1), ((34, 3), 'East', 1), ((32, 3), 'West', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(31, 9),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((31, 10), 'North', 1), ((31, 8), 'South', 1), ((32, 9), 'East', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(31, 18),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((31, 19), 'North', 1), ((31, 17), 'South', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(35, 14),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((35, 15), 'North', 1), ((35, 13), 'South', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(12, 1),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((13, 1), 'East', 1), ((11, 1), 'West', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(10, 1),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((11, 1), 'East', 1), ((9, 1), 'West', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(9, 4),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((9, 5), 'North', 1), ((9, 3), 'South', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(9, 16),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((9, 17), 'North', 1), ((9, 15), 'South', 1), ((10, 16), 'East', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(10, 15),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((10, 16), 'North', 1), ((11, 15), 'East', 1), ((9, 15), 'West', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(3, 22),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((3, 23), 'North', 1), ((3, 21), 'South', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(4, 21),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((5, 21), 'East', 1), ((3, 21), 'West', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(2, 21),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((3, 21), 'East', 1), ((1, 21), 'West', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(1, 20),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((1, 21), 'North', 1), ((1, 19), 'South', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(1, 14),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((1, 15), 'North', 1), ((1, 13), 'South', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(2, 15),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((3, 15), 'East', 1), ((1, 15), 'West', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(5, 6),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((5, 7), 'North', 1), ((5, 5), 'South', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(6, 7),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((7, 7), 'East', 1), ((5, 7), 'West', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(4, 7),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((5, 7), 'East', 1), ((3, 7), 'West', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(33, 4),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((33, 5), 'North', 1), ((33, 3), 'South', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(34, 3),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((35, 3), 'East', 1), ((33, 3), 'West', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(31, 10),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((31, 11), 'North', 1), ((31, 9), 'South', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(32, 9),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((33, 9), 'East', 1), ((31, 9), 'West', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(31, 19),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((31, 20), 'North', 1), ((31, 18), 'South', 1), ((32, 19), 'East', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(35, 15),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((35, 14), 'South', 1), ((34, 15), 'West', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(13, 1),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((12, 1), 'West', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(9, 1),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((10, 1), 'East', 1), ((8, 1), 'West', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(9, 5),
+2025-04-01 20:29:12,165 - getSuccessors - INFO - O: [((9, 4), 'South', 1)]
+2025-04-01 20:29:12,165 - getSuccessors - INFO - I: q1b_problem,(9, 17),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((9, 18), 'North', 1), ((9, 16), 'South', 1), ((10, 17), 'East', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(10, 16),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((10, 17), 'North', 1), ((10, 15), 'South', 1), ((9, 16), 'West', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(11, 15),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((12, 15), 'East', 1), ((10, 15), 'West', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(3, 23),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((3, 24), 'North', 1), ((3, 22), 'South', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(5, 21),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((5, 20), 'South', 1), ((4, 21), 'West', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(1, 21),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((1, 20), 'South', 1), ((2, 21), 'East', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(1, 13),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((1, 14), 'North', 1), ((1, 12), 'South', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(3, 15),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((2, 15), 'West', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(5, 5),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((5, 6), 'North', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(7, 7),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((6, 7), 'West', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(3, 7),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((3, 6), 'South', 1), ((4, 7), 'East', 1), ((2, 7), 'West', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(33, 5),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((33, 6), 'North', 1), ((33, 4), 'South', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(35, 3),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((35, 4), 'North', 1), ((35, 2), 'South', 1), ((34, 3), 'West', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(31, 11),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((31, 10), 'South', 1), ((30, 11), 'West', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(33, 9),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((33, 10), 'North', 1), ((34, 9), 'East', 1), ((32, 9), 'West', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(31, 20),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((31, 21), 'North', 1), ((31, 19), 'South', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(32, 19),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((33, 19), 'East', 1), ((31, 19), 'West', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(34, 15),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((35, 15), 'East', 1), ((33, 15), 'West', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(8, 1),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((9, 1), 'East', 1), ((7, 1), 'West', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(9, 18),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((9, 19), 'North', 1), ((9, 17), 'South', 1), ((10, 18), 'East', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(10, 17),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((10, 18), 'North', 1), ((10, 16), 'South', 1), ((9, 17), 'West', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(12, 15),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((12, 16), 'North', 1), ((13, 15), 'East', 1), ((11, 15), 'West', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(3, 24),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((3, 25), 'North', 1), ((3, 23), 'South', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(5, 20),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((5, 21), 'North', 1), ((5, 19), 'South', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(1, 12),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((1, 13), 'North', 1), ((1, 11), 'South', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(3, 6),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((3, 7), 'North', 1), ((3, 5), 'South', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(2, 7),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((3, 7), 'East', 1), ((1, 7), 'West', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(33, 6),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((33, 7), 'North', 1), ((33, 5), 'South', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(35, 4),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((35, 5), 'North', 1), ((35, 3), 'South', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(35, 2),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((35, 3), 'North', 1), ((35, 1), 'South', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(30, 11),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((31, 11), 'East', 1), ((29, 11), 'West', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(33, 10),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((33, 11), 'North', 1), ((33, 9), 'South', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(34, 9),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((35, 9), 'East', 1), ((33, 9), 'West', 1)]
+2025-04-01 20:29:12,166 - getSuccessors - INFO - I: q1b_problem,(31, 21),
+2025-04-01 20:29:12,166 - getSuccessors - INFO - O: [((31, 20), 'South', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(33, 19),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((33, 20), 'North', 1), ((34, 19), 'East', 1), ((32, 19), 'West', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(33, 15),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((33, 16), 'North', 1), ((34, 15), 'East', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(7, 1),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((7, 2), 'North', 1), ((8, 1), 'East', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(9, 19),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((9, 20), 'North', 1), ((9, 18), 'South', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(10, 18),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((10, 17), 'South', 1), ((9, 18), 'West', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(12, 16),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((12, 17), 'North', 1), ((12, 15), 'South', 1), ((13, 16), 'East', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(13, 15),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((13, 16), 'North', 1), ((14, 15), 'East', 1), ((12, 15), 'West', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(3, 25),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((3, 26), 'North', 1), ((3, 24), 'South', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(5, 19),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((5, 20), 'North', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(1, 11),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((1, 12), 'North', 1), ((1, 10), 'South', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(3, 5),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((3, 6), 'North', 1), ((3, 4), 'South', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(1, 7),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((1, 8), 'North', 1), ((2, 7), 'East', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(33, 7),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((33, 6), 'South', 1), ((34, 7), 'East', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(35, 5),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((35, 4), 'South', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(35, 1),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((35, 2), 'North', 1), ((34, 1), 'West', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(29, 11),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((30, 11), 'East', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(33, 11),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((33, 10), 'South', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(35, 9),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((35, 10), 'North', 1), ((34, 9), 'West', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(33, 20),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((33, 21), 'North', 1), ((33, 19), 'South', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(34, 19),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((35, 19), 'East', 1), ((33, 19), 'West', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(33, 16),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((33, 17), 'North', 1), ((33, 15), 'South', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(7, 2),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((7, 3), 'North', 1), ((7, 1), 'South', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(9, 20),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((9, 21), 'North', 1), ((9, 19), 'South', 1), ((10, 20), 'East', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(12, 17),
+2025-04-01 20:29:12,167 - getSuccessors - INFO - O: [((12, 18), 'North', 1), ((12, 16), 'South', 1), ((13, 17), 'East', 1)]
+2025-04-01 20:29:12,167 - getSuccessors - INFO - I: q1b_problem,(13, 16),
+2025-04-01 20:29:12,168 - getSuccessors - INFO - O: [((13, 17), 'North', 1), ((13, 15), 'South', 1), ((12, 16), 'West', 1)]
+2025-04-01 20:29:12,168 - getSuccessors - INFO - I: q1b_problem,(14, 15),
+2025-04-01 20:29:12,168 - getSuccessors - INFO - O: [((15, 15), 'East', 1), ((13, 15), 'West', 1)]
+2025-04-01 20:29:12,168 - getSuccessors - INFO - I: q1b_problem,(3, 26),
+2025-04-01 20:29:12,168 - getSuccessors - INFO - O: [((3, 27), 'North', 1), ((3, 25), 'South', 1)]
+2025-04-01 20:29:12,168 - getSuccessors - INFO - I: q1b_problem,(1, 10),
+2025-04-01 20:29:12,168 - getSuccessors - INFO - O: [((1, 11), 'North', 1), ((1, 9), 'South', 1)]
+2025-04-01 20:29:12,168 - getSuccessors - INFO - I: q1b_problem,(3, 4),
+2025-04-01 20:29:12,168 - getSuccessors - INFO - O: [((3, 5), 'North', 1), ((3, 3), 'South', 1)]
+2025-04-01 20:29:12,168 - getSuccessors - INFO - I: q1b_problem,(1, 8),
+2025-04-01 20:29:12,168 - getSuccessors - INFO - O: [((1, 9), 'North', 1), ((1, 7), 'South', 1)]
+2025-04-01 20:29:12,168 - getSuccessors - INFO - I: q1b_problem,(34, 7),
+2025-04-01 20:29:12,168 - getSuccessors - INFO - O: [((35, 7), 'East', 1), ((33, 7), 'West', 1)]
+2025-04-01 20:29:12,168 - getSuccessors - INFO - I: q1b_problem,(34, 1),
+2025-04-01 20:29:12,168 - getSuccessors - INFO - O: [((35, 1), 'East', 1), ((33, 1), 'West', 1)]
+2025-04-01 20:29:12,168 - getSuccessors - INFO - I: q1b_problem,(35, 10),
+2025-04-01 20:29:12,168 - getSuccessors - INFO - O: [((35, 11), 'North', 1), ((35, 9), 'South', 1)]
+2025-04-01 20:29:12,168 - getSuccessors - INFO - I: q1b_problem,(33, 21),
+2025-04-01 20:29:12,168 - getSuccessors - INFO - O: [((33, 20), 'South', 1)]
+2025-04-01 20:29:12,168 - getSuccessors - INFO - I: q1b_problem,(35, 19),
+2025-04-01 20:29:12,168 - getSuccessors - INFO - O: [((35, 20), 'North', 1), ((34, 19), 'West', 1)]
+2025-04-01 20:29:12,168 - getSuccessors - INFO - I: q1b_problem,(33, 17),
+2025-04-01 20:29:12,168 - getSuccessors - INFO - O: [((33, 16), 'South', 1), ((34, 17), 'East', 1)]
+2025-04-01 20:29:12,168 - getSuccessors - INFO - I: q1b_problem,(7, 3),
+2025-04-01 20:29:12,168 - getSuccessors - INFO - O: [((7, 4), 'North', 1), ((7, 2), 'South', 1), ((6, 3), 'West', 1)]
+2025-04-01 20:29:12,168 - getSuccessors - INFO - I: q1b_problem,(9, 21),
+2025-04-01 20:29:12,168 - getSuccessors - INFO - O: [((9, 22), 'North', 1), ((9, 20), 'South', 1), ((10, 21), 'East', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(10, 20),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((10, 21), 'North', 1), ((9, 20), 'West', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(12, 18),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((12, 19), 'North', 1), ((12, 17), 'South', 1), ((13, 18), 'East', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(13, 17),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((13, 18), 'North', 1), ((13, 16), 'South', 1), ((12, 17), 'West', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(15, 15),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((16, 15), 'East', 1), ((14, 15), 'West', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(3, 27),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((3, 28), 'North', 1), ((3, 26), 'South', 1), ((4, 27), 'East', 1), ((2, 27), 'West', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(1, 9),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((1, 10), 'North', 1), ((1, 8), 'South', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(3, 3),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((3, 4), 'North', 1), ((3, 2), 'South', 1), ((4, 3), 'East', 1), ((2, 3), 'West', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(35, 7),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((34, 7), 'West', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(33, 1),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((34, 1), 'East', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(35, 11),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((35, 10), 'South', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(35, 20),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((35, 21), 'North', 1), ((35, 19), 'South', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(34, 17),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((35, 17), 'East', 1), ((33, 17), 'West', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(7, 4),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((7, 5), 'North', 1), ((7, 3), 'South', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(6, 3),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((7, 3), 'East', 1), ((5, 3), 'West', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(9, 22),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((9, 23), 'North', 1), ((9, 21), 'South', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(10, 21),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((10, 20), 'South', 1), ((11, 21), 'East', 1), ((9, 21), 'West', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(12, 19),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((12, 20), 'North', 1), ((12, 18), 'South', 1), ((13, 19), 'East', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(13, 18),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((13, 19), 'North', 1), ((13, 17), 'South', 1), ((12, 18), 'West', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(16, 15),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((17, 15), 'East', 1), ((15, 15), 'West', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(3, 28),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((3, 29), 'North', 1), ((3, 27), 'South', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(4, 27),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((5, 27), 'East', 1), ((3, 27), 'West', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(2, 27),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((3, 27), 'East', 1), ((1, 27), 'West', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(3, 2),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((3, 3), 'North', 1), ((3, 1), 'South', 1), ((4, 2), 'East', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(4, 3),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((4, 2), 'South', 1), ((5, 3), 'East', 1), ((3, 3), 'West', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(2, 3),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((3, 3), 'East', 1), ((1, 3), 'West', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(35, 21),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((35, 22), 'North', 1), ((35, 20), 'South', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(35, 17),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((34, 17), 'West', 1)]
+2025-04-01 20:29:12,169 - getSuccessors - INFO - I: q1b_problem,(7, 5),
+2025-04-01 20:29:12,169 - getSuccessors - INFO - O: [((7, 4), 'South', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(5, 3),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((5, 2), 'South', 1), ((6, 3), 'East', 1), ((4, 3), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(9, 23),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((9, 22), 'South', 1), ((10, 23), 'East', 1), ((8, 23), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(11, 21),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((12, 21), 'East', 1), ((10, 21), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(12, 20),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((12, 21), 'North', 1), ((12, 19), 'South', 1), ((13, 20), 'East', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(13, 19),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((13, 20), 'North', 1), ((13, 18), 'South', 1), ((12, 19), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(17, 15),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((17, 16), 'North', 1), ((18, 15), 'East', 1), ((16, 15), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(3, 29),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((3, 28), 'South', 1), ((4, 29), 'East', 1), ((2, 29), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(5, 27),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((6, 27), 'East', 1), ((4, 27), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(1, 27),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((1, 26), 'South', 1), ((2, 27), 'East', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(3, 1),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((3, 2), 'North', 1), ((4, 1), 'East', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(4, 2),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((4, 3), 'North', 1), ((4, 1), 'South', 1), ((5, 2), 'East', 1), ((3, 2), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(1, 3),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((1, 4), 'North', 1), ((1, 2), 'South', 1), ((2, 3), 'East', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(35, 22),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((35, 23), 'North', 1), ((35, 21), 'South', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(5, 2),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((5, 3), 'North', 1), ((5, 1), 'South', 1), ((4, 2), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(10, 23),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((11, 23), 'East', 1), ((9, 23), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(8, 23),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((9, 23), 'East', 1), ((7, 23), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(12, 21),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((12, 20), 'South', 1), ((13, 21), 'East', 1), ((11, 21), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(13, 20),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((13, 21), 'North', 1), ((13, 19), 'South', 1), ((12, 20), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(17, 16),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((17, 17), 'North', 1), ((17, 15), 'South', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(18, 15),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((19, 15), 'East', 1), ((17, 15), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(4, 29),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((5, 29), 'East', 1), ((3, 29), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(2, 29),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((3, 29), 'East', 1), ((1, 29), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(6, 27),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((7, 27), 'East', 1), ((5, 27), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(1, 26),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((1, 27), 'North', 1), ((1, 25), 'South', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(4, 1),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((4, 2), 'North', 1), ((5, 1), 'East', 1), ((3, 1), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(1, 4),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((1, 5), 'North', 1), ((1, 3), 'South', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(1, 2),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((1, 3), 'North', 1), ((1, 1), 'South', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(35, 23),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((35, 24), 'North', 1), ((35, 22), 'South', 1), ((34, 23), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(5, 1),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((5, 2), 'North', 1), ((4, 1), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(11, 23),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((10, 23), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(7, 23),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((7, 22), 'South', 1), ((8, 23), 'East', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(13, 21),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((13, 20), 'South', 1), ((14, 21), 'East', 1), ((12, 21), 'West', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(17, 17),
+2025-04-01 20:29:12,170 - getSuccessors - INFO - O: [((17, 18), 'North', 1), ((17, 16), 'South', 1)]
+2025-04-01 20:29:12,170 - getSuccessors - INFO - I: q1b_problem,(19, 15),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((20, 15), 'East', 1), ((18, 15), 'West', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(5, 29),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((5, 30), 'North', 1), ((6, 29), 'East', 1), ((4, 29), 'West', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(1, 29),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((1, 30), 'North', 1), ((2, 29), 'East', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(7, 27),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((8, 27), 'East', 1), ((6, 27), 'West', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(1, 25),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((1, 26), 'North', 1), ((1, 24), 'South', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(1, 5),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((1, 4), 'South', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(1, 1),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((1, 2), 'North', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(35, 24),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((35, 25), 'North', 1), ((35, 23), 'South', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(34, 23),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((35, 23), 'East', 1), ((33, 23), 'West', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(7, 22),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((7, 23), 'North', 1), ((7, 21), 'South', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(14, 21),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((15, 21), 'East', 1), ((13, 21), 'West', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(17, 18),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((17, 19), 'North', 1), ((17, 17), 'South', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(20, 15),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((21, 15), 'East', 1), ((19, 15), 'West', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(5, 30),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((5, 31), 'North', 1), ((5, 29), 'South', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(6, 29),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((7, 29), 'East', 1), ((5, 29), 'West', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(1, 30),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((1, 31), 'North', 1), ((1, 29), 'South', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(8, 27),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((9, 27), 'East', 1), ((7, 27), 'West', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(1, 24),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((1, 25), 'North', 1), ((1, 23), 'South', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(35, 25),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((35, 26), 'North', 1), ((35, 24), 'South', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(33, 23),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((34, 23), 'East', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(7, 21),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((7, 22), 'North', 1), ((7, 20), 'South', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(15, 21),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((15, 22), 'North', 1), ((16, 21), 'East', 1), ((14, 21), 'West', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(17, 19),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((17, 20), 'North', 1), ((17, 18), 'South', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(21, 15),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((21, 16), 'North', 1), ((22, 15), 'East', 1), ((20, 15), 'West', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(5, 31),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((5, 32), 'North', 1), ((5, 30), 'South', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(7, 29),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((7, 30), 'North', 1), ((6, 29), 'West', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(1, 31),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((1, 30), 'South', 1), ((2, 31), 'East', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(9, 27),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((9, 26), 'South', 1), ((10, 27), 'East', 1), ((8, 27), 'West', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(1, 23),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((1, 24), 'North', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(35, 26),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((35, 27), 'North', 1), ((35, 25), 'South', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(7, 20),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((7, 21), 'North', 1), ((7, 19), 'South', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(15, 22),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((15, 23), 'North', 1), ((15, 21), 'South', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(16, 21),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((17, 21), 'East', 1), ((15, 21), 'West', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(17, 20),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((17, 21), 'North', 1), ((17, 19), 'South', 1)]
+2025-04-01 20:29:12,171 - getSuccessors - INFO - I: q1b_problem,(21, 16),
+2025-04-01 20:29:12,171 - getSuccessors - INFO - O: [((21, 17), 'North', 1), ((21, 15), 'South', 1)]
+2025-04-01 20:29:12,172 - getSuccessors - INFO - I: q1b_problem,(22, 15),
+2025-04-01 20:29:12,172 - getSuccessors - INFO - O: [((23, 15), 'East', 1), ((21, 15), 'West', 1)]
+2025-04-01 20:29:12,172 - getSuccessors - INFO - I: q1b_problem,(5, 32),
+2025-04-01 20:29:12,172 - getSuccessors - INFO - O: [((5, 33), 'North', 1), ((5, 31), 'South', 1)]
+2025-04-01 20:29:12,172 - getSuccessors - INFO - I: q1b_problem,(7, 30),
+2025-04-01 20:29:12,172 - getSuccessors - INFO - O: [((7, 31), 'North', 1), ((7, 29), 'South', 1)]
+2025-04-01 20:29:12,172 - getSuccessors - INFO - I: q1b_problem,(2, 31),
+2025-04-01 20:29:12,172 - getSuccessors - INFO - O: [((3, 31), 'East', 1), ((1, 31), 'West', 1)]
+2025-04-01 20:29:12,172 - getSuccessors - INFO - I: q1b_problem,(9, 26),
+2025-04-01 20:29:12,172 - getSuccessors - INFO - O: [((9, 27), 'North', 1), ((9, 25), 'South', 1)]
+2025-04-01 20:29:12,172 - getSuccessors - INFO - I: q1b_problem,(10, 27),
+2025-04-01 20:29:12,172 - getSuccessors - INFO - O: [((11, 27), 'East', 1), ((9, 27), 'West', 1)]
+2025-04-01 20:29:12,172 - getSuccessors - INFO - I: q1b_problem,(35, 27),
+2025-04-01 20:29:12,172 - getSuccessors - INFO - O: [((35, 28), 'North', 1), ((35, 26), 'South', 1)]
+2025-04-01 20:29:12,172 - getSuccessors - INFO - I: q1b_problem,(7, 19),
+2025-04-01 20:29:12,172 - getSuccessors - INFO - O: [((7, 20), 'North', 1)]
+2025-04-01 20:29:12,172 - getSuccessors - INFO - I: q1b_problem,(15, 23),
+2025-04-01 20:29:12,172 - getSuccessors - INFO - O: [((15, 24), 'North', 1), ((15, 22), 'South', 1), ((14, 23), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(17, 21),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((17, 20), 'South', 1), ((18, 21), 'East', 1), ((16, 21), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(21, 17),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((21, 18), 'North', 1), ((21, 16), 'South', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(23, 15),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((24, 15), 'East', 1), ((22, 15), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(5, 33),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((5, 34), 'North', 1), ((5, 32), 'South', 1), ((6, 33), 'East', 1), ((4, 33), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(7, 31),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((7, 30), 'South', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(3, 31),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((2, 31), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(9, 25),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((9, 26), 'North', 1), ((8, 25), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(11, 27),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((11, 26), 'South', 1), ((12, 27), 'East', 1), ((10, 27), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(35, 28),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((35, 29), 'North', 1), ((35, 27), 'South', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(15, 24),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((15, 25), 'North', 1), ((15, 23), 'South', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(14, 23),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((15, 23), 'East', 1), ((13, 23), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(18, 21),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((19, 21), 'East', 1), ((17, 21), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(21, 18),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((21, 19), 'North', 1), ((21, 17), 'South', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(24, 15),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((25, 15), 'East', 1), ((23, 15), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(5, 34),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((5, 35), 'North', 1), ((5, 33), 'South', 1), ((6, 34), 'East', 1), ((4, 34), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(6, 33),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((6, 34), 'North', 1), ((7, 33), 'East', 1), ((5, 33), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(4, 33),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((4, 34), 'North', 1), ((5, 33), 'East', 1), ((3, 33), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(8, 25),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((9, 25), 'East', 1), ((7, 25), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(11, 26),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((11, 27), 'North', 1), ((11, 25), 'South', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(12, 27),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((13, 27), 'East', 1), ((11, 27), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(35, 29),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((35, 30), 'North', 1), ((35, 28), 'South', 1), ((34, 29), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(15, 25),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((15, 26), 'North', 1), ((15, 24), 'South', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(13, 23),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((13, 24), 'North', 1), ((14, 23), 'East', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(19, 21),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((20, 21), 'East', 1), ((18, 21), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(21, 19),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((21, 20), 'North', 1), ((21, 18), 'South', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(25, 15),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((24, 15), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(5, 35),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((5, 34), 'South', 1), ((6, 35), 'East', 1), ((4, 35), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(6, 34),
+2025-04-01 20:29:12,173 - getSuccessors - INFO - O: [((6, 35), 'North', 1), ((6, 33), 'South', 1), ((7, 34), 'East', 1), ((5, 34), 'West', 1)]
+2025-04-01 20:29:12,173 - getSuccessors - INFO - I: q1b_problem,(4, 34),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((4, 35), 'North', 1), ((4, 33), 'South', 1), ((5, 34), 'East', 1), ((3, 34), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(7, 33),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((7, 34), 'North', 1), ((6, 33), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(3, 33),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((3, 34), 'North', 1), ((4, 33), 'East', 1), ((2, 33), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(7, 25),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((8, 25), 'East', 1), ((6, 25), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(11, 25),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((11, 26), 'North', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(13, 27),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((13, 28), 'North', 1), ((12, 27), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(35, 30),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((35, 31), 'North', 1), ((35, 29), 'South', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(34, 29),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((35, 29), 'East', 1), ((33, 29), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(15, 26),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((15, 27), 'North', 1), ((15, 25), 'South', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(13, 24),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((13, 25), 'North', 1), ((13, 23), 'South', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(20, 21),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((21, 21), 'East', 1), ((19, 21), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(21, 20),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((21, 21), 'North', 1), ((21, 19), 'South', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(6, 35),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((6, 34), 'South', 1), ((7, 35), 'East', 1), ((5, 35), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(4, 35),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((4, 34), 'South', 1), ((5, 35), 'East', 1), ((3, 35), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(7, 34),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((7, 35), 'North', 1), ((7, 33), 'South', 1), ((8, 34), 'East', 1), ((6, 34), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(3, 34),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((3, 35), 'North', 1), ((3, 33), 'South', 1), ((4, 34), 'East', 1), ((2, 34), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(2, 33),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((2, 34), 'North', 1), ((3, 33), 'East', 1), ((1, 33), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(6, 25),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((7, 25), 'East', 1), ((5, 25), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(13, 28),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((13, 29), 'North', 1), ((13, 27), 'South', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(35, 31),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((35, 30), 'South', 1), ((34, 31), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(33, 29),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((33, 28), 'South', 1), ((34, 29), 'East', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(15, 27),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((15, 26), 'South', 1), ((16, 27), 'East', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(13, 25),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((13, 24), 'South', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(21, 21),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((21, 22), 'North', 1), ((21, 20), 'South', 1), ((22, 21), 'East', 1), ((20, 21), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(7, 35),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((7, 34), 'South', 1), ((6, 35), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(3, 35),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((3, 34), 'South', 1), ((4, 35), 'East', 1), ((2, 35), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(8, 34),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((9, 34), 'East', 1), ((7, 34), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(2, 34),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((2, 35), 'North', 1), ((2, 33), 'South', 1), ((3, 34), 'East', 1), ((1, 34), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(1, 33),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((1, 34), 'North', 1), ((2, 33), 'East', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(5, 25),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((5, 24), 'South', 1), ((6, 25), 'East', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(13, 29),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((13, 28), 'South', 1), ((12, 29), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(34, 31),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((35, 31), 'East', 1), ((33, 31), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(33, 28),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((33, 29), 'North', 1), ((33, 27), 'South', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(16, 27),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((17, 27), 'East', 1), ((15, 27), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(21, 22),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((21, 23), 'North', 1), ((21, 21), 'South', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(22, 21),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((23, 21), 'East', 1), ((21, 21), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(2, 35),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((2, 34), 'South', 1), ((3, 35), 'East', 1), ((1, 35), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(9, 34),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((9, 35), 'North', 1), ((9, 33), 'South', 1), ((8, 34), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(1, 34),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((1, 35), 'North', 1), ((1, 33), 'South', 1), ((2, 34), 'East', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(5, 24),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((5, 25), 'North', 1), ((5, 23), 'South', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(12, 29),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((13, 29), 'East', 1), ((11, 29), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(33, 31),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((33, 32), 'North', 1), ((34, 31), 'East', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(33, 27),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((33, 28), 'North', 1), ((33, 26), 'South', 1), ((32, 27), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(17, 27),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((17, 26), 'South', 1), ((18, 27), 'East', 1), ((16, 27), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(21, 23),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((21, 22), 'South', 1), ((20, 23), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(23, 21),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((22, 21), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(17, 9),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((17, 10), 'North', 1), ((18, 9), 'East', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(17, 10),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((17, 11), 'North', 1), ((17, 9), 'South', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(18, 9),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((19, 9), 'East', 1), ((17, 9), 'West', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(17, 11),
+2025-04-01 20:29:12,174 - getSuccessors - INFO - O: [((17, 12), 'North', 1), ((17, 10), 'South', 1)]
+2025-04-01 20:29:12,174 - getSuccessors - INFO - I: q1b_problem,(19, 9),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((19, 8), 'South', 1), ((18, 9), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(17, 12),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((17, 13), 'North', 1), ((17, 11), 'South', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(19, 8),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((19, 9), 'North', 1), ((19, 7), 'South', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(17, 13),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((17, 12), 'South', 1), ((18, 13), 'East', 1), ((16, 13), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(19, 7),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((19, 8), 'North', 1), ((20, 7), 'East', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(18, 13),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((19, 13), 'East', 1), ((17, 13), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(16, 13),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((17, 13), 'East', 1), ((15, 13), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(20, 7),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((21, 7), 'East', 1), ((19, 7), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(19, 13),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((19, 12), 'South', 1), ((20, 13), 'East', 1), ((18, 13), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(15, 13),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((15, 12), 'South', 1), ((16, 13), 'East', 1), ((14, 13), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(21, 7),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((21, 8), 'North', 1), ((21, 6), 'South', 1), ((22, 7), 'East', 1), ((20, 7), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(19, 12),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((19, 13), 'North', 1), ((19, 11), 'South', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(20, 13),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((21, 13), 'East', 1), ((19, 13), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(15, 12),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((15, 13), 'North', 1), ((15, 11), 'South', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(14, 13),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((15, 13), 'East', 1), ((13, 13), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(21, 8),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((21, 9), 'North', 1), ((21, 7), 'South', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(21, 6),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((21, 7), 'North', 1), ((21, 5), 'South', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(22, 7),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((23, 7), 'East', 1), ((21, 7), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(19, 11),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((19, 12), 'North', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(21, 13),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((21, 12), 'South', 1), ((22, 13), 'East', 1), ((20, 13), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(15, 11),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((15, 12), 'North', 1), ((15, 10), 'South', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(13, 13),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((14, 13), 'East', 1), ((12, 13), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(21, 9),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((21, 8), 'South', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(21, 5),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((21, 6), 'North', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(23, 7),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((23, 8), 'North', 1), ((24, 7), 'East', 1), ((22, 7), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(21, 12),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((21, 13), 'North', 1), ((21, 11), 'South', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(22, 13),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((23, 13), 'East', 1), ((21, 13), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(15, 10),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((15, 11), 'North', 1), ((15, 9), 'South', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(12, 13),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((13, 13), 'East', 1), ((11, 13), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(23, 8),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((23, 9), 'North', 1), ((23, 7), 'South', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(24, 7),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((25, 7), 'East', 1), ((23, 7), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(21, 11),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((21, 12), 'North', 1), ((22, 11), 'East', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(23, 13),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((23, 12), 'South', 1), ((24, 13), 'East', 1), ((22, 13), 'West', 1)]
+2025-04-01 20:29:12,175 - getSuccessors - INFO - I: q1b_problem,(15, 9),
+2025-04-01 20:29:12,175 - getSuccessors - INFO - O: [((15, 10), 'North', 1), ((15, 8), 'South', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(11, 13),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((11, 12), 'South', 1), ((12, 13), 'East', 1), ((10, 13), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(23, 9),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((23, 8), 'South', 1), ((24, 9), 'East', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(25, 7),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((25, 6), 'South', 1), ((24, 7), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(22, 11),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((23, 11), 'East', 1), ((21, 11), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(23, 12),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((23, 13), 'North', 1), ((23, 11), 'South', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(24, 13),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((25, 13), 'East', 1), ((23, 13), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(15, 8),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((15, 9), 'North', 1), ((15, 7), 'South', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(11, 12),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((11, 13), 'North', 1), ((11, 11), 'South', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(10, 13),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((11, 13), 'East', 1), ((9, 13), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(24, 9),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((25, 9), 'East', 1), ((23, 9), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(25, 6),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((25, 7), 'North', 1), ((25, 5), 'South', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(23, 11),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((23, 12), 'North', 1), ((24, 11), 'East', 1), ((22, 11), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(25, 13),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((26, 13), 'East', 1), ((24, 13), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(15, 7),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((15, 8), 'North', 1), ((16, 7), 'East', 1), ((14, 7), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(11, 11),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((11, 12), 'North', 1), ((11, 10), 'South', 1), ((12, 11), 'East', 1), ((10, 11), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(9, 13),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((10, 13), 'East', 1), ((8, 13), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(25, 9),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((24, 9), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(25, 5),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((25, 6), 'North', 1), ((25, 4), 'South', 1), ((24, 5), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(24, 11),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((25, 11), 'East', 1), ((23, 11), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(26, 13),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((27, 13), 'East', 1), ((25, 13), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(16, 7),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((17, 7), 'East', 1), ((15, 7), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(14, 7),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((15, 7), 'East', 1), ((13, 7), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(11, 10),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((11, 11), 'North', 1), ((11, 9), 'South', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(12, 11),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((13, 11), 'East', 1), ((11, 11), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(10, 11),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((11, 11), 'East', 1), ((9, 11), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(8, 13),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((9, 13), 'East', 1), ((7, 13), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(25, 4),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((25, 5), 'North', 1), ((25, 3), 'South', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(24, 5),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((25, 5), 'East', 1), ((23, 5), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(25, 11),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((26, 11), 'East', 1), ((24, 11), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(27, 13),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((27, 14), 'North', 1), ((26, 13), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(17, 7),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((17, 6), 'South', 1), ((16, 7), 'West', 1)]
+2025-04-01 20:29:12,176 - getSuccessors - INFO - I: q1b_problem,(13, 7),
+2025-04-01 20:29:12,176 - getSuccessors - INFO - O: [((13, 8), 'North', 1), ((14, 7), 'East', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(11, 9),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((11, 10), 'North', 1), ((10, 9), 'West', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(13, 11),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((13, 10), 'South', 1), ((12, 11), 'West', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(9, 11),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((10, 11), 'East', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(7, 13),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((8, 13), 'East', 1), ((6, 13), 'West', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(25, 3),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((25, 4), 'North', 1), ((26, 3), 'East', 1), ((24, 3), 'West', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(23, 5),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((24, 5), 'East', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(26, 11),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((27, 11), 'East', 1), ((25, 11), 'West', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(27, 14),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((27, 15), 'North', 1), ((27, 13), 'South', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(17, 6),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((17, 7), 'North', 1), ((17, 5), 'South', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(13, 8),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((13, 9), 'North', 1), ((13, 7), 'South', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(10, 9),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((11, 9), 'East', 1), ((9, 9), 'West', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(13, 10),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((13, 11), 'North', 1), ((13, 9), 'South', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(6, 13),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((7, 13), 'East', 1), ((5, 13), 'West', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(26, 3),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((27, 3), 'East', 1), ((25, 3), 'West', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(24, 3),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((25, 3), 'East', 1), ((23, 3), 'West', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(27, 11),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((27, 10), 'South', 1), ((26, 11), 'West', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(27, 15),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((27, 14), 'South', 1), ((28, 15), 'East', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(17, 5),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((17, 6), 'North', 1), ((18, 5), 'East', 1), ((16, 5), 'West', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(13, 9),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((13, 10), 'North', 1), ((13, 8), 'South', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(9, 9),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((9, 8), 'South', 1), ((10, 9), 'East', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(5, 13),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((5, 14), 'North', 1), ((5, 12), 'South', 1), ((6, 13), 'East', 1), ((4, 13), 'West', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(27, 3),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((27, 4), 'North', 1), ((27, 2), 'South', 1), ((28, 3), 'East', 1), ((26, 3), 'West', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(23, 3),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((23, 2), 'South', 1), ((24, 3), 'East', 1), ((22, 3), 'West', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(27, 10),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((27, 11), 'North', 1), ((27, 9), 'South', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(28, 15),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((29, 15), 'East', 1), ((27, 15), 'West', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(18, 5),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((19, 5), 'East', 1), ((17, 5), 'West', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(16, 5),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((17, 5), 'East', 1), ((15, 5), 'West', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(9, 8),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((9, 9), 'North', 1), ((9, 7), 'South', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(5, 14),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((5, 15), 'North', 1), ((5, 13), 'South', 1)]
+2025-04-01 20:29:12,177 - getSuccessors - INFO - I: q1b_problem,(5, 12),
+2025-04-01 20:29:12,177 - getSuccessors - INFO - O: [((5, 13), 'North', 1), ((5, 11), 'South', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(4, 13),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((5, 13), 'East', 1), ((3, 13), 'West', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(27, 4),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((27, 5), 'North', 1), ((27, 3), 'South', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(27, 2),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((27, 3), 'North', 1), ((27, 1), 'South', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(28, 3),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((29, 3), 'East', 1), ((27, 3), 'West', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(23, 2),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((23, 3), 'North', 1), ((23, 1), 'South', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(22, 3),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((23, 3), 'East', 1), ((21, 3), 'West', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(27, 9),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((27, 10), 'North', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(29, 15),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((29, 14), 'South', 1), ((28, 15), 'West', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(19, 5),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((18, 5), 'West', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(15, 5),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((15, 4), 'South', 1), ((16, 5), 'East', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(9, 7),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((9, 8), 'North', 1), ((10, 7), 'East', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(5, 15),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((5, 16), 'North', 1), ((5, 14), 'South', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(5, 11),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((5, 12), 'North', 1), ((6, 11), 'East', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(3, 13),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((3, 12), 'South', 1), ((4, 13), 'East', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(27, 5),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((27, 6), 'North', 1), ((27, 4), 'South', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(27, 1),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((27, 2), 'North', 1), ((28, 1), 'East', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(29, 3),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((29, 4), 'North', 1), ((28, 3), 'West', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(23, 1),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((23, 2), 'North', 1), ((24, 1), 'East', 1), ((22, 1), 'West', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(21, 3),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((22, 3), 'East', 1), ((20, 3), 'West', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(29, 14),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((29, 15), 'North', 1), ((29, 13), 'South', 1)]
+2025-04-01 20:29:12,178 - getSuccessors - INFO - I: q1b_problem,(15, 4),
+2025-04-01 20:29:12,178 - getSuccessors - INFO - O: [((15, 5), 'North', 1), ((15, 3), 'South', 1)]
+2025-04-01 20:29:12,196 - root - INFO - Out of actions
+2025-04-01 20:29:12,196 - root - INFO - Remaining Food: 3
+2025-04-01 20:29:12,196 - root - INFO - Remaining Food: 3
+2025-04-01 20:29:12,196 - root - INFO - moveHistory: [[(0, 'East'), (0, 'East'), (0, 'South'), (0, 'South'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'East'), (0, 'East'), (0, 'South'), (0, 'South'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'North'), (0, 'North'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'South'), (0, 'South')]]
+2025-04-01 20:29:12,196 - root - INFO - pathLength: [30]
+2025-04-01 20:29:12,196 - root - INFO - Average Score: -20.00
+2025-04-01 20:29:12,196 - root - INFO - Scores: -20.0
+2025-04-01 20:29:12,196 - root - INFO - Win Rate:      0/1 (0.00)
+2025-04-01 20:29:12,196 - root - INFO - Record:       Draw
